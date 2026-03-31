@@ -73,7 +73,7 @@ No frameworks, no dependencies.
 Once GitHub Pages is enabled, your app will be available at:
 
 ```
-https://yourusername.github.io/workout-app/
+https://ethanw17.github.io/hybrid-workout-app/
 ```
 
 ---
