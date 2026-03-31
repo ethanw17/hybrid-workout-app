@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hybrid Program</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+<meta name="theme-color" content="#0a0a0a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Workout">
+
+<style>
+:root {
+  --black: #0a0a0a;
+  --white: #f5f2ed;
+  --accent: #c8451a;
+  --muted: #7a746e;
+  --border: #d4cfc8;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--white);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--black);
+  max-width: 500px;
+  margin: auto;
+}
+
+/* COVER */
+.cover {
+  background: var(--black);
+  color: white;
+  padding: 60px 25px;
+}
+
+.cover h1 {
+  font-family: 'Bebas Neue';
+  font-size: 56px;
+  line-height: 0.9;
+}
+
+.cover span { color: var(--accent); }
+
+.cover p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+}
+
+/* PAGE */
+.page {
+  padding: 30px 20px;
+}
+
+/* SECTION */
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-family: 'Bebas Neue';
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  height: 2px;
+  background: var(--accent);
+  margin-bottom: 15px;
+}
+
+/* DAY BLOCK */
+.day {
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.day-header {
+  background: var(--black);
+  color: white;
+  padding: 12px 15px;
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.exercise {
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--border);
+}
+
+.exercise:last-child { border-bottom: none; }
+
+.exercise:active {
+  background: #e6e1da;
+}
+
+.exercise strong {
+  display: block;
+  font-size: 14px;
+}
+
+.meta {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* SPLIT */
+.split div {
+  background: #ede9e2;
+  padding: 12px;
+  border-left: 3px solid var(--accent);
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* PROGRESSION */
+.progression {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progression div {
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--border);
+}
+
+.progression div:last-child {
+  border-bottom: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="cover">
+  <h1>BUILD.<br><span>SIZE.</span><br>STRENGTH.</h1>
+  <p>12-week hybrid program for strength + hypertrophy.</p>
+</div>
+
+<div class="page">
+
+<!-- SPLIT -->
+
+<div class="section">
+  <h2>Weekly Structure</h2>
+  <div class="divider"></div>
+  <div class="split">
+    <div><strong>4-Day Split</strong><br>Upper / Lower / Rest / Upper / Lower</div>
+    <div><strong>3-Day Split</strong><br>Upper / Lower / Full Hybrid</div>
+  </div>
+</div>
+
+<!-- DAY 1 -->
+
+<div class="section">
+  <h2>Day 1 – Upper Strength</h2>
+  <div class="divider"></div>
+
+  <div class="day">
+    <div class="day-header">Heavy Push / Pull</div>
+
+```
+<div class="exercise"><strong>Bench Press</strong><div class="meta">4x4–6</div></div>
+<div class="exercise"><strong>Weighted Pull-Ups</strong><div class="meta">4x5–8</div></div>
+<div class="exercise"><strong>Overhead Press</strong><div class="meta">3x5–8</div></div>
+<div class="exercise"><strong>Row (Barbell or Chest Supported)</strong><div class="meta">3x6–8</div></div>
+<div class="exercise"><strong>Lateral Raises</strong><div class="meta">3x12–15</div></div>
+<div class="exercise"><strong>Tricep Pushdowns</strong><div class="meta">3x10–15</div></div>
+<div class="exercise"><strong>DB Curl (Optional)</strong><div class="meta">2–3x10–12</div></div>
+```
+
+  </div>
+</div>
+
+<!-- DAY 2 -->
+
+<div class="section">
+  <h2>Day 2 – Lower Strength</h2>
+  <div class="divider"></div>
+
+  <div class="day">
+    <div class="day-header">Squat + Posterior Chain</div>
+
+```
+<div class="exercise"><strong>Back Squat</strong><div class="meta">4x4–6</div></div>
+<div class="exercise"><strong>Romanian Deadlift</strong><div class="meta">3x6–8</div></div>
+<div class="exercise"><strong>Leg Press / Split Squat</strong><div class="meta">3x8–10</div></div>
+<div class="exercise"><strong>Leg Curl</strong><div class="meta">3x10–15</div></div>
+<div class="exercise"><strong>Calf Raises</strong><div class="meta">4x10–15</div></div>
+```
+
+  </div>
+</div>
+
+<!-- DAY 3 -->
+
+<div class="section">
+  <h2>Day 3 – Hybrid Hypertrophy</h2>
+  <div class="divider"></div>
+
+  <div class="day">
+    <div class="day-header">Full Body Volume</div>
+
+```
+<div class="exercise"><strong>Incline DB Press</strong><div class="meta">3–4x8–12</div></div>
+<div class="exercise"><strong>Lat Pulldown</strong><div class="meta">3–4x8–12</div></div>
+<div class="exercise"><strong>DB Shoulder Press</strong><div class="meta">3x10–12</div></div>
+<div class="exercise"><strong>Cable Row</strong><div class="meta">3x10–12</div></div>
+<div class="exercise"><strong>Lateral Raises</strong><div class="meta">3x12–15</div></div>
+<div class="exercise"><strong>Face Pulls</strong><div class="meta">3x12–15</div></div>
+<div class="exercise"><strong>Bicep Curl</strong><div class="meta">3x10–15</div></div>
+<div class="exercise"><strong>Overhead Tricep Extension</strong><div class="meta">3x10–15</div></div>
+<div class="exercise"><strong>Leg Press / Split Squat</strong><div class="meta">3x10–12</div></div>
+<div class="exercise"><strong>Leg Extension / Curl</strong><div class="meta">2–3x12–15</div></div>
+```
+
+  </div>
+</div>
+
+<!-- DAY 4 -->
+
+<div class="section">
+  <h2>Day 4 – Lower Hypertrophy (Optional)</h2>
+  <div class="divider"></div>
+
+  <div class="day">
+    <div class="day-header">Lower Volume</div>
+
+```
+<div class="exercise"><strong>Deadlift / Trap Bar</strong><div class="meta">3x5–6</div></div>
+<div class="exercise"><strong>Bulgarian Split Squat</strong><div class="meta">3x8–12</div></div>
+<div class="exercise"><strong>Leg Extension</strong><div class="meta">3x12–15</div></div>
+<div class="exercise"><strong>Seated Leg Curl</strong><div class="meta">3x12–15</div></div>
+<div class="exercise"><strong>Calf Raises</strong><div class="meta">4x12–15</div></div>
+```
+
+  </div>
+</div>
+
+<!-- PROGRESSION -->
+
+<div class="section">
+  <h2>Progression</h2>
+  <div class="divider"></div>
+
+  <div class="progression">
+    <div><strong>Weeks 1–4:</strong> Add weight or reps weekly</div>
+    <div><strong>Weeks 5–8:</strong> Increase intensity (4x5 → 5x3)</div>
+    <div><strong>Weeks 9–11:</strong> Heavy low reps</div>
+    <div><strong>Week 12:</strong> Deload</div>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
